@@ -1,0 +1,24 @@
+{
+  "name": "experiments-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "experiments-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersondemetrio/experiments-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersondemetrio/experiments-api/issues"
+  },
+  "homepage": "https://github.com/emersondemetrio/experiments-api#readme",
+  "dependencies": {
+    "fastify": "^5.6.0"
+  }
+}
