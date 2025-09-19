@@ -1,5 +1,7 @@
 import Fastify from 'fastify'
 
+const PORT = process.env.PORT || 3000
+
 const fastify = Fastify({
   logger: true
 })
@@ -7,8 +9,6 @@ const fastify = Fastify({
 fastify.get('/', async (request, reply) => {
   return { hello: 'world' }
 })
-
-const PORT = process.env.PORT || 3000
 
 const start = async () => {
   try {
