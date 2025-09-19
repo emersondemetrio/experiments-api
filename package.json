@@ -18,6 +18,9 @@
     "url": "https://github.com/emersondemetrio/experiments-api/issues"
   },
   "homepage": "https://github.com/emersondemetrio/experiments-api#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "fastify": "^5.6.0"
   }
