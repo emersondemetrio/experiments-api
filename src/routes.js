@@ -1,7 +1,9 @@
-async function routes(fastify, options) {
-  fastify.get('/', async (request, reply) => {
-    return { hello: 'world' }
-  })
-}
+import { Router } from 'express'
 
-export default routes
+const router = Router()
+
+router.get('/', (req, res) => {
+  res.json({ hello: 'world' })
+})
+
+export default router
